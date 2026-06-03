@@ -208,7 +208,7 @@ a:hover { color: var(--cyan); }
 }
 
 /* ---------- Projects ---------- */
-.projects { display: grid; gap: 1rem; }
+.projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 1rem; }
 .project {
   border: 1px solid var(--border); border-radius: var(--radius);
   background: linear-gradient(180deg, var(--panel), var(--bg-elev));
