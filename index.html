@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akhil CH — Cloud Security Engineer</title>
+  <meta name="description" content="Akhil CH — Cloud Security Engineer. AWS security, IAM, DevSecOps, threat hunting, and penetration testing. Newark, DE." />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Akhil CH — Cloud Security Engineer" />
+  <meta property="og:description" content="AWS security end to end. I find attack paths and build the detection around them." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="brand-prompt">akhil@sec</span><span class="brand-sep">:</span><span class="brand-path">~</span><span class="brand-caret">$</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#experience">experience</a>
+      <a href="#writing">writing</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <a class="resume-btn" href="mailto:akhilchinta1227@gmail.com">get in touch</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="term">
+        <div class="term-bar">
+          <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+          <span class="term-title">akhil@portfolio: ~</span>
+        </div>
+        <div class="term-body">
+          <p class="term-line"><span class="prompt">$</span> whoami</p>
+          <h1 class="hero-name">Akhil CH</h1>
+          <p class="term-line"><span class="prompt">$</span> cat role.txt</p>
+          <p class="hero-role">Cloud Security Engineer</p>
+          <p class="term-line"><span class="prompt">$</span> ./intro.sh</p>
+          <p class="hero-tagline"><span id="typed"></span><span class="cursor" aria-hidden="true">&#9608;</span></p>
+          <div class="hero-meta">
+            <span class="chip">AWS Security</span>
+            <span class="chip">IAM</span>
+            <span class="chip">DevSecOps</span>
+            <span class="chip">Threat Hunting</span>
+            <span class="chip">Pen Testing</span>
+          </div>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">view projects</a>
+            <a class="btn" href="https://github.com/Akhil-1527" target="_blank" rel="noopener">github &#8599;</a>
+            <a class="btn" href="#contact">contact</a>
+          </div>
+        </div>
+      </div>
+      <p class="hero-loc"><span class="prompt">&gt;</span> Newark, DE &middot; open to cloud security &amp; DevSecOps roles</p>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <h2 class="section-head"><span class="prompt">$</span> cat about.md</h2>
+      <div class="prose">
+        <p>Cloud Security Engineer with 3+ years securing AWS environments across financial services and enterprise. I operationalize AWS-native security services and design segmented, least-privilege architectures &mdash; working from the offensive side, finding attack paths, through to the defensive side: detection, response, and remediation.</p>
+        <p>I'm comfortable on both sides of that line, and the tools below are how I think &mdash; small, auditable, and built to drop into a pipeline rather than sit in a slide deck. Master's in Cybersecurity from NJIT; CEH, ECSA, and dual AWS certifications; currently pursuing an MBA.</p>
+      </div>
+      <ul class="certs">
+        <li>CEH</li>
+        <li>ECSA</li>
+        <li>AWS Solutions Architect</li>
+        <li>AWS Developer</li>
+        <li>AZ-400</li>
+      </ul>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <h2 class="section-head"><span class="prompt">$</span> ls -la skills/</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3><span class="dir">aws-security/</span></h3>
+          <div class="tags">
+            <span>GuardDuty</span><span>Security Hub</span><span>Inspector</span><span>WAF</span>
+            <span>Secrets Manager</span><span>IAM</span><span>KMS</span><span>CloudTrail</span>
+            <span>Config</span><span>Organizations</span><span>SCPs</span><span>Macie</span>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3><span class="dir">cloud-infra/</span></h3>
+          <div class="tags">
+            <span>EC2</span><span>S3</span><span>Lambda</span><span>VPC</span>
+            <span>CloudFormation</span><span>Terraform</span><span>CodeDeploy</span>
+            <span>GCP</span><span>Azure</span>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3><span class="dir">devsecops/</span></h3>
+          <div class="tags">
+            <span>Jenkins</span><span>GitHub Actions</span><span>Docker</span><span>Kubernetes</span>
+            <span>Snyk</span><span>OWASP ZAP</span><span>CI/CD gates</span>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3><span class="dir">offensive/</span></h3>
+          <div class="tags">
+            <span>Kali Linux</span><span>Metasploit</span><span>Burp Suite</span>
+            <span>OWASP Top 10</span><span>AD attacks</span><span>Attack surface</span>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3><span class="dir">security-ops/</span></h3>
+          <div class="tags">
+            <span>Incident Response</span><span>Threat Hunting</span><span>MITRE ATT&amp;CK</span>
+            <span>Splunk</span><span>CloudTrail analysis</span><span>Root-cause</span>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3><span class="dir">governance/</span></h3>
+          <div class="tags">
+            <span>PCI DSS</span><span>NIST 800-53</span><span>CIS Benchmarks</span>
+            <span>Zero Trust</span><span>Least Privilege</span><span>Threat Modeling</span>
+          </div>
+        </article>
+        <article class="skill-card">
+          <h3><span class="dir">languages/</span></h3>
+          <div class="tags">
+            <span>Python</span><span>Bash</span><span>PowerShell</span>
+            <span>Java</span><span>JavaScript</span><span>Ruby</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <h2 class="section-head"><span class="prompt">$</span> git log --projects</h2>
+      <div class="projects">
+
+        <article class="project">
+          <div class="project-top">
+            <h3 class="project-name">aws-iam-privesc-finder</h3>
+            <a class="project-link" href="https://github.com/Akhil-1527/aws-iam-privesc-finder" target="_blank" rel="noopener" aria-label="aws-iam-privesc-finder on GitHub">&#8599;</a>
+          </div>
+          <p class="project-desc">Static analyzer for AWS IAM privilege-escalation paths. 16 techniques mapped to MITRE ATT&amp;CK, each with Sigma detection rules, remediation guidance, and a full test suite over mock policy fixtures.</p>
+          <div class="tags">
+            <span>Python</span><span>IAM</span><span>MITRE ATT&amp;CK</span><span>Sigma</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <h3 class="project-name">portscan</h3>
+            <a class="project-link" href="https://github.com/Akhil-1527/portscan" target="_blank" rel="noopener" aria-label="portscan on GitHub">&#8599;</a>
+          </div>
+          <p class="project-desc">Threaded TCP connect scanner with banner grabbing, service-name resolution, and CIDR expansion. Standard library only. Phase 1 of an incremental network-tooling project.</p>
+          <div class="tags">
+            <span>Python</span><span>Networking</span><span>Recon</span><span>stdlib</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-top">
+            <h3 class="project-name">secretscan</h3>
+            <a class="project-link" href="https://github.com/Akhil-1527/secretscan" target="_blank" rel="noopener" aria-label="secretscan on GitHub">&#8599;</a>
+          </div>
+          <p class="project-desc">Dependency-free secrets scanner: named regex rules plus a Shannon-entropy pass, with redaction and CI-friendly exit codes. Pairs with the IAM analyzer &mdash; one keeps credentials out of the repo, the other checks what they can do.</p>
+          <div class="tags">
+            <span>Python</span><span>DevSecOps</span><span>CI/CD</span><span>stdlib</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <h2 class="section-head"><span class="prompt">$</span> cat experience.log</h2>
+      <ol class="timeline">
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-role">Cloud Security &amp; DevSecOps Engineer <span class="tl-co">&mdash; Ayras Technologies</span></p>
+            <p class="tl-date">May 2024 &ndash; Mar 2025 &middot; Princeton, NJ</p>
+            <p class="tl-desc">Designed a segmented multi-account AWS architecture and stood up GuardDuty and Security Hub org-wide, tuning findings down to actionable signal. Ran least-privilege IAM reviews, enforced preventive SCPs, shifted security left with Snyk and OWASP ZAP in CI, and held the estate to the CIS AWS Foundations Benchmark with automated remediation.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-role">Cloud Security &amp; Automation Engineer <span class="tl-co">&mdash; Citi</span></p>
+            <p class="tl-date">Feb 2022 &ndash; Feb 2023 &middot; Tampa, FL</p>
+            <p class="tl-desc">Internal penetration testing against Active Directory and threat hunting across CloudTrail and Splunk, mapping activity to MITRE ATT&amp;CK. Built Jenkins gates that hard-failed CVSS 7+ builds, ran threat modeling for critical applications, and worked within PCI DSS controls on KMS-encrypted market-data pipelines.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-role">DevSecOps Engineer <span class="tl-co">&mdash; Capgemini</span></p>
+            <p class="tl-date">Jun 2021 &ndash; Dec 2021 &middot; Chicago, IL</p>
+            <p class="tl-desc">Added OWASP ZAP as a CI/CD quality gate, containerized legacy apps on Docker and Kubernetes with Pod Security and network policies, and separated environment access via IAM permission boundaries. Baked security baselines into CloudFormation templates so deployments started hardened.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-role">Cloud Security Analyst <span class="tl-co">&mdash; Intalent</span></p>
+            <p class="tl-date">Jun 2020 &ndash; Jun 2021 &middot; Texas</p>
+            <p class="tl-desc">Audited and hardened S3 and EC2 (server-side encryption, public-access removal), built the team's first automated Jenkins security stage with OWASP dependency checks, and caught authentication-bypass issues in security regression testing before release.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <h2 class="section-head"><span class="prompt">$</span> cat education.txt</h2>
+      <ol class="timeline">
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-role">M.S., Cybersecurity &amp; Privacy <span class="tl-co">&mdash; NJIT</span></p>
+            <p class="tl-date">Jan 2019 &ndash; May 2020 &middot; Newark, NJ</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-role">Master of Business Administration <span class="tl-co">&mdash; Lindsey Wilson University</span></p>
+            <p class="tl-date">Mar 2025 &ndash; Present</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== WRITING ===== -->
+    <section class="section" id="writing">
+      <h2 class="section-head"><span class="prompt">$</span> ls writing/</h2>
+      <div class="writing">
+        <article class="post-card post-featured">
+          <span class="post-status">in&nbsp;progress</span>
+          <h3 class="post-title">Hosting My Portfolio on Hardened AWS</h3>
+          <p class="post-excerpt">A security engineer hosting their own portfolio the right way: private S3, CloudFront with OAC, TLS via ACM, and the whole thing in Terraform. What I'd flag in a review of it.</p>
+          <p class="post-meta">launch post &middot; coming soon</p>
+        </article>
+        <p class="writing-note"><span class="prompt">&gt;</span> Posts publish here and on Medium. This list wires up automatically once the blog ships.</p>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <h2 class="section-head"><span class="prompt">$</span> ./contact.sh</h2>
+      <div class="contact">
+        <p class="contact-line">Best way to reach me is email. I read everything.</p>
+        <ul class="contact-list">
+          <li><span class="ck">email</span><a href="mailto:akhilchinta1227@gmail.com">akhilchinta1227@gmail.com</a></li>
+          <li><span class="ck">github</span><a href="https://github.com/Akhil-1527" target="_blank" rel="noopener">github.com/Akhil-1527</a></li>
+          <li><span class="ck">location</span><span>Newark, DE</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span class="prompt">$</span> echo &quot;built from scratch &middot; no frameworks &middot; &copy; <span id="year"></span> Akhil CH&quot;</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
