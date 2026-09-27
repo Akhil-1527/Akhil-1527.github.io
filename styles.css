@@ -1,5 +1,5 @@
 /* ============================================================
-   Akhil CH — portfolio
+   Akhil CH portfolio
    Terminal-dark theme. IBM Plex Mono. Phosphor green, used with restraint.
    ============================================================ */
 
@@ -291,7 +291,7 @@ a:hover { color: var(--cyan); }
 }
 
 /* ============================================================
-   REDUCED MOTION  — drop CRT shimmer + animations
+   REDUCED MOTION: drop CRT shimmer + animations
    ============================================================ */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

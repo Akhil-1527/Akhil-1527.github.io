@@ -1,4 +1,4 @@
-/* Akhil CH — portfolio interactions. Vanilla JS, no dependencies. */
+/* Akhil CH portfolio interactions. Vanilla JS, no dependencies. */
 (function () {
   "use strict";
 
